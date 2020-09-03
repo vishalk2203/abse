@@ -1,0 +1,1658 @@
+f<!DOCTYPE html><html><head><!-- StartFormCustomCSS -->
+    <style type="text/css">
+        
+      </style>
+    <!-- EndFormCustomCSS -->
+
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="shortcut icon" type="image/png" href="https://i.ibb.co/YbgsDbR/ABSE-Logo-2.png">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+
+<title>ABS Estates</title>
+<style>
+        body, h1, h2, h3, h4, h5, p, ol, ul {
+	font-family: 'open sans';
+	color:#333333;
+	letter-spacing:1px;
+	font-weight:400;
+}
+
+p {
+	font-size:14px;
+}
+
+a:hover {
+	cursor:pointer;
+	text-decoration:none;
+}
+      #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+.nav>li>a {
+	padding:14px 13px;
+	min-width:220px;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color:#fff;
+	font-weight:bold;
+}
+.navbar-fixed-top{
+	
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+	border-bottom: 3px solid #c61324;
+	background-color: #000!important;
+}
+.thumbnail1
+{
+	display: block;
+line-height: 1.42857;
+margin-bottom: 20px;
+padding: 4px;
+transition: border 0.2s ease-in-out 0s;
+}
+.FormControlGroup {
+    padding-bottom: 10px;
+}
+ .FormControlChk {
+            height: 0px;
+            width: 0px;
+            display: inline-block;
+            float: left;
+        }
+        
+        .FormControlGroup .CheckBox {
+            font-size: 14px;
+            position: relative;
+            line-height: 20px;
+            padding-left: 30px;
+            margin-bottom: 0px;
+            display: block;
+            font-weight: normal;
+        }
+        
+        .FormControlGroup .CheckBox span {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 20px;
+            width: 20px;
+            background-color: #DDDDDD;
+            display: block;
+            transition: background-color 0.125s ease-out;
+        }
+        
+        .FormControlGroup .CheckBox span::before {
+            position: relative;
+            z-index: 100;
+            top: 1px;
+            left: 4px;
+            font-size: 11px;
+            opacity: 0;
+            transition: all 0.125s ease-out;
+            color: #0199d5;
+        }
+        
+        .FormControlGroup .CheckBox span::after {
+            content: "";
+            display: block;
+            width: calc(100% - 4px);
+            height: calc(100% - 4px);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            background-color: #FFFFFF;
+            transition: all 0.125s ease-out;
+            transform: translateX(-50%) translateY(-50%);
+            transform-origin: 0% 0%;
+        }
+        .FormControlChk:checked+.CheckBox span {
+            background-color: #0199d5;
+        }
+        
+        .FormControlChk:checked+.CheckBox span::before {
+            opacity: 1;
+        }
+.modal { top:125px; }
+.offers
+{
+    background-color: #f2f2f2;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.height {
+    height: 100px;
+}
+.flex-item .media img:hover {
+    transform:scale(1.2);
+	opacity: 1;
+	top:-7%;
+	left:-7%;
+}
+
+.flex-item .media img {
+    position: relative;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.flex-item img {
+	
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.flex-item .btn.btn-lenovo.red {
+    width: 45%;
+	margin-bottom:30px;
+}
+.caption.auto-h {
+    height: 167px;
+}
+
+.caption2.auto-h {
+    height:180px; //250px;
+}
+
+.banner {
+	background-image: url('https://i.ibb.co/XkxngFX/ABSE-Banner.png');
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-color:#EBEBEB;
+	height:420px;
+	width:100%;
+	margin:0px;
+	position:relative;
+	background-position: center left;
+}
+.banner .btn-lenovo {
+    width: auto !important;
+}
+.font-w-600
+{
+font-weight:600;
+line-height:24px;
+}
+
+#footer table {
+	width:100% !important;
+}
+
+
+
+.hero-text {
+	color:#FFFFFF;
+	font-family: 'open sans';
+	letter-spacing:1.5px;
+	position:absolute;
+	top:6%;
+	transform:translateY(-50%);
+	left:50%;
+	transform:translateX(-50%);
+	text-align:center
+	
+}
+
+.hero-text h1 { font-size:60px;font-weight:normal;color:#FFFFFF; }
+.hero-text h3 { font-size:28px;font-weight:300;color:#FFFFFF; }
+
+.modal-header {
+    padding: 15px !important;
+    border-bottom: 1px solid #e5e5e5 !important;
+	background-color:#049FD9 !important;
+
+}
+.modal-title
+{
+	color:#ffffff ;
+}
+.modal-header .close
+{
+	color:#000000 ;
+}
+
+/*.mid-nav {
+	background-color:#0095d3;
+	height:70px;
+}
+
+.navi {
+	display:inline;
+	overflow:hidden;
+	color:#FFFFFF;
+	font-size:16px;
+	list-style:none;
+	margin:0;
+	padding:0;
+	letter-spacing:1.5px;
+}
+
+.navi > li {
+	float:left;
+	margin-top:22px;
+}
+
+.navi > li a {
+	display:block;
+	text-align:center;
+	padding:0px 65px;
+	text-decoration:none;
+	color:#FFFFFF;
+	font-weight: 300;
+	border-right:1px solid #FFFFFF;
+
+}*/
+
+.affixedNavbar {
+	top: 0;
+	width: 100%;
+	
+	z-index: 9999 !important;
+	position: fixed;
+}
+.icons li
+{
+	  padding-left: 70px;
+
+
+    background-image: url();
+    background-size: auto;
+    background-repeat: no-repeat;
+	padding-bottom:10px;
+	
+}
+
+li a:hover {
+	color:#ebebeb;
+}
+
+.img-adjust {
+	width:100%;
+}
+
+.left {
+	float:left;
+}
+
+.btn-lenovo { transition: background-color .6s ease;-webkit-transition: background-color .6s ease;-moz-transition: background-color .6s ease;letter-spacing:1px;border:2px solid transparent;max-width:100%;width:100%; }
+
+
+
+
+.btn-hpi ,.btn-hpi:hover , .btn-hpi:focus ,.btn-hpi.active{
+width:160px;color:#fff; text-align:center; padding:15px; font-size:13px; font-weight:700 !important; border:none; text-transform:uppercase!important;font-family: 'open sans'; letter-spacing:1px;text-decoration:none;background-color: #c61324;border-radius: 5px;display:inline-block;}
+
+
+
+.link {
+	font-family: 'open sans';
+	font-weight:600;
+}
+
+.link:hover {
+	color:#0094d2;
+	text-decoration:none;
+}
+
+.move-right:after {
+	content:"";
+	margin-right:0px;
+	transition: margin-right .5s ease;
+	-webkit-transition: margin-right .5s ease;
+	-moz-transition: margin-right .5s ease;
+}
+
+.move-right:hover:after {
+	margin-right: 10px;
+}
+
+
+
+
+
+
+.resource-over {
+	position:relative;
+	top:72%;
+	border-top:3px solid #049FD9;
+	background-color: rgba(0,0,0,.7);
+	padding:18px 15px;
+	width:100%;
+}
+
+.resource-over2 {
+	position:relative;
+	top:71%;
+	border-top:3px solid #049FD9;
+	background-color: rgba(0,0,0,.7);
+	padding:7px 15px 0px 15px;
+	width:100%;
+}
+
+.header-block {
+	margin:30px 0px 0px 0px;
+	padding:7px 15px;
+	background-color: #049FD9;
+	width:100%;
+}
+
+.header-block > p {
+	margin:0px;
+	color:#FFFFFF;
+}
+	
+	
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.grow img{
+transition: 1s ease;
+}
+
+.grow img:hover{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+}
+.resource-link {
+	color:#231f20;
+	font-family: 'open sans';
+	letter-spacing:1px;
+	display:block;
+	padding-bottom:10px;
+}
+
+.fact {
+	display:block;
+	width:105px;
+	float:left;
+	padding-bottom:5px;
+}
+
+.footer-text {
+	text-align:center; 
+	color:#FFFFFF; 
+	font-size:11px; 
+	padding:25px 0px; 
+	margin-bottom:0px; 
+	font-weight:300;
+}
+.mid-nav {
+  overflow: hidden;
+  margin-left:-15px;
+  margin-right:-15px;
+}
+
+
+/* Form */
+	
+	
+			#formdiv .form-control { border:none !important; outline:none;border-bottom:1px solid #333 !important;border-radius:0px; border-style:solid;box-shadow:none; }
+			#formdiv .form-control:focus { background-color: rgba(226, 35, 26, 0.1);border-bottom: 3px solid #e2231a !important;}
+			#formdiv textarea.form-control { border:1px solid #333 !important; }
+					
+			#formdiv input[type="checkbox"] { visibility:hidden; width:0px; height:0px; }
+			
+			#formdiv .FormCheckboxElem
+			{
+				display:inline-block; width:16px; height:16px; margin-right:15px; margin-left:4px; vertical-align:text-bottom; border: 1px solid #333; border-radius:4px; transition:0.25s all;position: absolute; left: 0px; top: 2px;
+			}
+			#formdiv input[type="checkbox"]:checked+.FormCheckboxElem
+			{
+				background-color:#333; background-size:75% auto; border-color:#FFFFFF;
+			}
+			
+			#formdiv input[type="checkbox"]:checked+.FormCheckboxElem:after
+			{
+				 display:inline-block; transform:scale(1);
+			}
+			#formdiv .CheckboxLabel:active .FormCheckboxElem { transform: scale(0); }
+			
+			#formdiv .checkbox { margin: 5px 0; }
+
+			#formdiv label { font-weight:500; }
+	
+			#formdiv input.validationError { border: 2px solid #FF4444; border-width: 0 0 2px; }
+			
+			#formdiv input+.ValidationErrorMsg
+			{
+				display: none; position: absolute; left: 0%; float:left; font-size:11px; background-color: #FFFFFF; border: 1px solid #3095b4;
+				box-shadow: 0px 0px 10px rgba(0,0,0,0.5); height: 22px; padding: 2px 5px; top: -20px; border-radius: 5px; transform-origin: left bottom;
+				transition: 0.25s;
+			}
+			#formdiv input+.ValidationErrorMsg:after
+			{
+				content:""; display:block; width:0px; height:0px; position:absolute; bottom:-7px; left:10px;
+				border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 7px solid #FFFFFF;
+			}
+			#formdiv input.validationError+.ValidationErrorMsg
+			{
+				display:block; animation: PopupValidationError 0.25s linear;
+			}
+
+			.validationError::-webkit-input-placeholder { color: #FF6666 !important; }
+			.validationError:-moz-placeholder { color: #FF6666 !important; }
+			.validationError::-moz-placeholder { color: #FF6666 !important; }
+			.validationError:-ms-input-placeholder { color: #FF6666 !important; }
+			
+			#FormWrapper { width:200%;margin-left:-100%; }
+			
+			#formdiv { overflow:hidden; }
+
+
+#FormWrapper { width:200%;margin-left:-100%; }
+
+.FixedTopBar { position: fixed; width: 100%;top:0px; z-index: 99999; }
+
+#promoIntro, #upgrade, #SecWebinar, #SecResources { padding:30px 15px 30px 15px; }
+#SectGreen .triangle-banner { padding:30px 0px 60px 0px; }
+
+
+.AnchorConsultationForm { overflow: hidden; }
+	.ConsultationForm { background-color:#171a1e; color: #FFFFFF; padding-top:30px;  }
+	
+	@keyframes ShowConsultationForm
+	{
+		0% { top: 100vh; opacity: 0; }
+		100% { top: 0vh; opacity: 1; }
+	}
+	@keyframes CloseConsultationForm
+	{
+		0% { top: 0vh; opacity: 1; }
+		100% { top: 100vh; opacity: 0; }
+	}
+
+	@media (min-width: 320px) {
+		.text-xs-left { text-align: left !important; }
+		.text-xs-right { text-align: right !important; }
+		.text-xs-center { text-align: center !important; }
+		.text-xs-justify { text-align: justify !important; }
+		
+	}
+	
+	@media (max-width: 450px) {
+		.bottomPaddingAdjust {
+		margin-bottom:-100px;
+		}
+		
+	}
+	
+	@media (min-width: 768px) {
+		.text-sm-left { text-align: left !important; }
+		.text-sm-right { text-align: right !important; }
+		.text-sm-center { text-align: center !important; }
+		.text-sm-justify { text-align: justify !important; }
+		.caption.auto-h {
+			min-height:180px;
+		}
+	}
+	
+	@media (min-width: 992px) {
+		.text-md-left { text-align: left !important; }
+		.text-md-right { text-align: right !important; }
+		.text-md-center { text-align: center !important; }
+		.text-md-justify { text-align: justify !important; }
+		
+		.lg-2 {width:20% !important; float: left;}
+		
+		.LeftMargin {margin-left: 10% !important;}
+		
+		
+		.TopHeader { height: 300px !important; }
+		
+	}
+	
+	@media (min-width: 1200px) {
+		.text-lg-left { text-align: left !important; }
+		.text-lg-right { text-align: right !important; }
+		.text-lg-center { text-align: center !important; }
+		.text-lg-justify { text-align: justify !important; }
+	}
+	
+	@media (min-width:768px){
+				.tabRes td.t2Head {  
+					display:none;
+				}
+			}
+
+@media (max-width:767px) {
+	.Mob-NoBrd {
+	border-right:none !important;
+	border-left:none !important;
+}
+.tabRes {
+					overflow: hidden;
+				}
+
+				.tabRes td.tHead {
+					display: none;
+				}
+				
+				.tabRes td.mHead {
+					border-left:1px solid #FFFFFF;
+				}
+
+				.tabRes td {
+					display: block;
+					text-align: left;
+					padding-bottom: 10px;
+					position: relative;
+					padding-left: 40%;
+				}
+
+				.tabRes td:first-child {
+					padding-top: .5em;
+				}
+
+				.tabRes td:last-child {
+					padding-bottom: .5em;
+				}
+
+				.tabRes td.tBody:before {
+					content: attr(headers) ": ";
+					font-weight: bold;
+					width: 40%;
+					display: inline-block;
+					color: #1ebcee;
+					/*position: absolute;
+					top: 6px;
+					left: 6px;*/
+					padding-right: 20px;
+					white-space: no-wrap;
+				}
+				
+				.tabResMDF td.tBody:before {
+					content: attr(headers) ": ";
+					font-weight: bold;
+					width: auto;
+					display: inline-block;
+					color: #1ebcee;
+					/*position: absolute;
+					top: 6px;
+					left: 6px;*/
+					padding-right: 20px;
+					white-space: no-wrap;
+				}
+
+				td.tHead {
+					background-color: #333;
+					color: #FFFFFF;
+					text-align: left;
+					font-size: 14px;
+					font-family: 'open sans';
+				}
+
+				td.tBody {
+					border-bottom: 1px solid #ddd;
+					text-align: left;
+					font-size: 12px;
+					letter-spacing: 1px;
+				}
+				
+				.mobilePaddingAdjust {
+				padding-top:45px;
+				}
+				
+				.caption3 {
+				height:130px !important;
+				}
+				
+				.fontAdjust {
+				font-size:10px !important;
+				}
+
+.form-group { padding:0px !important; }
+#SectWebinar { text-align:center; }
+#SectWebinar li { text-align:left; }
+
+	.hero-banner { background-position:center left; }
+	.hero-text { top:10% !important; }
+	#promoIntro { padding:15px;}
+	.btn-lenovo.fullWidth { width:100% !important; }
+	
+	div.ConsultFormControl, .ConsultFormControl { font-size: 11px !important; height: auto !important; min-height: 36px !important; padding: 8px 10px !important; }
+		.ConsultFormControl+.ValidationErrorMsg .glyphicon { line-height: 36px !important; }
+		.ConsultFormControl~.ValidationErrorLbl { height: 36px !important; padding: 8px 15px !important; }
+			
+		
+
+
+}
+
+@media (min-width: 767px)
+			{
+				.mid-nav1 {
+			  overflow: hidden;
+			  }
+			  
+			  .mid-nav a { padding:14px 30px !important; }
+			  .hideheader {
+    display: none;
+}
+			}
+			
+			@media (min-width: 991px)
+			{
+				.mid-nav1 {
+			  overflow: hidden;
+			  margin-left:3.33%;
+			  }
+			  
+
+			  .mid-nav a { padding:14px 45px !important; }
+			  
+			}
+
+			@media (min-width: 1170px)
+			{
+				.mid-nav1 {
+				  overflow: hidden;
+				  margin-left:10%;	
+				}
+			}
+
+
+
+@media (max-width:991px){
+	#SectWebinar { background-position:center left !important; }
+	.hero-banner { background-position:center left; }
+	.hero-text { top:30%;left:20%;transform:translateY(-30%);transform:translateX(-20%); }
+	
+	.ConsultationForm { padding: 15px !important; }
+		.FormInstructions h3 { font-size: 18px !important; margin-top: 0px !important; margin-bottom: 15px !important; }
+		.FormInstructions h4 { font-size: 14px !important; margin-bottom: 15px !important; }
+		.FormInstructions ul { font-size: 14px !important; margin: 15px 0px !important; }
+		.ConsultationForm form { margin-top: 15px; }
+.removepadding2{
+			padding-left:15px !important;
+			padding-right:15px !important;
+		}
+
+}
+
+@media (min-width:992px){
+	.removeLeftPadding { padding-left:0px; }
+	.ConsultationForm>.container { padding-left: 45px; }
+
+}
+
+#topBar {
+	background-color:  #3a74bb;
+}
+
+
+.mid-nav a {
+  float: left;
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 45px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.mid-nav a:hover {
+  background-color: #FFFFFF;
+  color: #0095d3;
+}
+
+.mid-nav .icon {
+  display: none;
+}
+
+.mid-nav a:hover ~ a.icon{
+	color: #0095d3;
+}
+
+@media (min-width:768px) {
+		
+		.seperator {
+		display:none;
+		}
+		.navbar-header {
+    float: left;
+}
+		}
+
+@media screen and (max-width: 767px) {
+  .mid-nav a:not(:first-child) {display: none;}
+  .mid-nav a.icon {
+    float: right;
+    display: block;
+  }
+  
+  .seperator {
+			height:20px !important;
+			}
+			
+  .hideBlock {
+  display:none !important;
+  }
+
+  .mid-nav.responsive {position: relative;}
+  .mid-nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .mid-nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+.resource-over {
+	position:relative;
+	top:70%;
+	border-top:3px solid #049FD9;
+	background-color: rgba(0,0,0,.7);
+	padding:18px 15px;
+	width:100%;
+}
+
+.resource-over2 {
+	position:relative;
+	top:72%;
+	border-top:3px solid #049FD9;
+	background-color: rgba(0,0,0,.7);
+	padding:7px 15px 0px 15px;
+	width:100%;
+}
+
+
+
+}
+
+@media only screen and (max-width : 450px)
+{
+	
+	.resource-over {
+	position:relative;
+	top:64%;
+	border-top:3px solid #049FD9;
+	background-color: rgba(0,0,0,.7);
+	padding:18px 15px;
+	width:100%;
+}
+.flex-item .btn.btn-lenovo.red {
+    width: 60% !important;
+    margin-bottom: 30px;
+}
+.resource-over2 {
+	position:relative;
+	top:64%;
+	border-top:3px solid #049FD9;
+	background-color: rgba(0,0,0,.7);
+	padding:7px 15px 0px 15px;
+	width:100%;
+}
+.header-block {
+    margin: 60px 0px 0px 0px;
+    padding: 7px 15px;
+    background-color: #049FD9;
+    width: 100%;
+}
+.fontAdjust2 {
+				font-size:7px !important;
+				}
+}
+
+
+/* Tracker */
+/* CSS used here will be applied after bootstrap.css */
+.nav-wizard > li {
+  float: left;
+}
+.nav-wizard > li > .tracker {
+  position: relative;
+  background-color: #049FD9;
+  color: #FFFFFF;
+  padding:12px 15px;
+}
+.nav-wizard > li > .tracker .badge {
+  margin-left: 3px;
+  color: #FFFFFF;
+  background-color: #073c8d;
+}
+.nav-wizard > li > .tracker .badge.badge-step {
+  color: #073c8d;
+  border: 1px solid #073c8d;
+  border-radius: 50%;
+  padding: 3px 5px;
+  background-color: transparent;
+}
+.nav-wizard > li.active > .tracker .badge.badge-step {
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+  padding: 3px 5px;
+  background-color: transparent;
+}
+.nav-wizard > li:not(:first-child) > .tracker {
+  padding-left: 34px;
+}
+.nav-wizard > li:not(:first-child) > .tracker:before {
+  width: 0px;
+  height: 0px;
+  border-top: 20px inset transparent;
+  border-bottom: 20px inset transparent;
+  border-left: 20px solid #ffffff;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+}
+.nav-wizard > li:not(:last-child) > .tracker {
+  margin-right: 4px;
+}
+.nav-wizard > li > .tracker:after {
+  width: 0px;
+  height: 0px;
+  border-top: 20px inset transparent;
+  border-bottom: 20px inset transparent;
+  border-left: 20px solid #049FD9;
+  position: absolute;
+  content: "";
+  top: 0;
+  right: -20px;
+  z-index: 2;
+}
+/*.nav-wizard > li:first-child > .tracker {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}*/
+/*.nav-wizard > li:last-child > .tracker {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}*/
+.nav-wizard > li.done:hover > .tracker,
+.nav-wizard > li:hover > .tracker {
+  background-color: #d5d5d5;
+}
+.nav-wizard > li.done:hover > .tracker:before,
+.nav-wizard > li:hover > .tracker:before {
+  border-right-color: #d5d5d5;
+}
+.nav-wizard > li.done:hover > .tracker:after,
+.nav-wizard > li:hover > .tracker:after {
+  border-left-color: #d5d5d5;
+}
+.nav-wizard > li.done > .tracker {
+  background-color: #e2e2e2;
+}
+.nav-wizard > li.done > .tracker:before {
+  border-right-color: #e2e2e2;
+}
+.nav-wizard > li.done > .tracker:after {
+  border-left-color: #e2e2e2;
+}
+.nav-wizard > li.active > .tracker,
+.nav-wizard > li.active > .tracker:hover,
+.nav-wizard > li.active > .tracker:focus {
+  color: #ffffff;
+  background-color: #073c8d;
+}
+.nav-wizard > li.active > .tracker:after {
+  border-left-color: #073c8d;
+}
+.nav-wizard > li.active > .tracker .badge {
+  color: #073c8d;
+  background-color: #ffffff;
+}
+.nav-wizard > li.disabled > .tracker {
+  color: #777777;
+}
+.nav-wizard > li.disabled > .tracker:hover,
+.nav-wizard > li.disabled > .tracker:focus {
+  color: #777777;
+  text-decoration: none;
+  background-color: #eeeeee;
+  cursor: default;
+}
+.nav-wizard > li.disabled > .tracker:before {
+  border-right-color: #eeeeee;
+}
+.nav-wizard > li.disabled > .tracker:after {
+  border-left-color: #eeeeee;
+}
+.nav-wizard.nav-justified > li {
+  float: none;
+}
+.nav-wizard.nav-justified > li > .tracker {
+  padding: 10px 15px;
+}
+@media (max-width: 768px) {
+  .nav-wizard.nav-justified > li > .tracker {
+    /*border-radius: 4px;*/
+    margin-right: 0;
+  }
+  .nav-wizard.nav-justified > li > .tracker:before,
+  .nav-wizard.nav-justified > li > .tracker:after {
+    border: none !important;
+  }
+}
+
+/* Tracker */
+
+
+
+
+.tabRes td{
+	padding:5px;
+	font-size:16px;
+	font-weight:600;
+}
+
+			/* Table */
+			
+			@media (max-width:767px){
+				#GISec table {
+					width:100% !important;
+					clear:both;
+					margin-bottom:10px;
+				}
+			}
+			
+			/* Table */
+			
+			.IconRow {padding-right:0px;}
+			.IconTxt {padding-left:0px;}
+
+
+
+
+</style>
+<style>
+.promo_holder h3{
+color:#2673c2;
+font-weight:600;
+text-align:left;
+}	
+.promo_holder p{
+font-size:14px;padding-top:20px;color:#333333;text-align:left;
+}	
+.promo_holder .promo_ulHead{
+    color: #2673c2;
+    display: block;
+    margin-top: 30px;
+}	
+.paddingBottomAdjust{
+	margin-bottom:15px;
+}
+@media (min-width: 992px) and (max-width:1199px){
+	.caption2.auto-h {
+		height:224px;
+	}
+}
+/*@media (min-width: 768px) and (max-width: 991px){
+	.caption .font-w-600 {
+		min-height:48px;    font-size: 15px;
+	}
+	.caption p,.caption2 p{
+		min-height:80px;
+	}
+	.paddingBottomAdjust {
+		height:300px;
+	}
+}*/
+@media (min-width: 760px) and (max-width: 820px){
+.paddingBottomAdjust {
+padding-bottom:50px;
+}
+.heightAdjust {
+height:130px !important;
+}
+
+}
+
+@media (max-width: 780px){
+.caption.auto-h{
+   //height: initial !important;
+   padding-bottom:20px !important;
+}
+.caption2.auto-h{
+   height: initial !important;
+   padding-bottom:20px !important;
+}
+.caption3.auto-h{
+   height: initial !important;
+   padding-bottom:20px !important;
+}
+
+
+.flex-item .btn.btn-lenovo.red {
+    width: 100% !important;
+}
+}
+.btn.GoToTop {
+            width: 60px;
+            height: 60px;
+        }
+
+        .GoToTop,
+        .GoToTop:focus {
+            font-family: "open sans";
+            border-width: 3px;
+            background-color: transparent !important;
+            border-color: #c61324 !important;
+            color: #c61324;
+            border-radius: 100px;
+            height: 60px;
+            width: 60px;
+            outline: none !important;
+            transition: all 0.15s;
+            position: fixed;
+            z-index: 999;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+            left: 30px;
+            bottom: 30px;
+            //opacity: 0;
+            display: none;
+        }
+
+        .GoToTop:hover,
+        .GoToTop:active {
+            background-color: transparent !important;
+            border-color: #425563 !important;
+            color: #425563 !important;
+        }
+</style>
+
+
+
+
+<script>
+$(document).ready(function() {
+  //change the integers below to match the height of your upper dive, which I called
+  //banner.  Just add a 1 to the last number.  console.log($(window).scrollTop())
+  //to figure out what the scroll position is when exactly you want to fix the nav
+  //bar or div or whatever.  I stuck in the console.log for you.  Just remove when
+  //you know the position.
+  $(window).scroll(function () { 
+
+   // console.log($(window).scrollTop());
+
+    if ($(window).scrollTop() > 301) {
+      $('#nav_menu').addClass('navbar-fixed-top');
+    }
+
+    if ($(window).scrollTop() < 301) {
+      $('#nav_menu').removeClass('navbar-fixed-top');
+    }
+  });
+});
+$(document).on('click', 'a[href^="#"]', function(e) {
+    // target element id
+    var id = $(this).attr('href');
+
+    // target element
+    var $id = $(id);
+    if ($id.length === 0) {
+        return;
+    }
+
+    // prevent standard hash navigation (avoid blinking in IE)
+    e.preventDefault();
+
+    // top position relative to the document
+    var pos = $id.offset().top;
+
+    // animated top scrolling
+    $('body, html').animate({scrollTop: pos - 120});
+});
+</script>
+
+</head>
+
+<body id="PageStart" class="PageLoading">
+
+
+<div ng-app="app_ABS" ng-controller="ctrl_ABS">
+  <section class="container-fluid">
+  <button tabindex="-1" class="btn btn-default GoToTop" title="Go to Top" onclick="ScrollWindowTo('#PageStart');"><span class="glyphicon glyphicon-chevron-up"></span></button>
+    <div class="row">
+      <div class="container">
+        <div class="row" style="padding:10px 0">
+          <div class="col-xs-6 text-left"> <img src="https://i.ibb.co/YbgsDbR/ABSE-Logo-2.png" width="100" height="100" class="img-responsive" alt="ABS" style="display: inline-block; padding-top:10px"> </div>
+          
+        </div>
+      </div>
+    </div>
+
+    
+  </section>
+  <section>
+<div class="row banner"> 
+<div class="container">
+ <div class="height">&nbsp;</div>
+	 <div class="bannerTxt BannerwidthAdjust" id="Introduction">
+	 <h1 class="mobileCenter" style="color:#ffffff; font-family: 'open sans';font-size:32px; line-height: 45px;text-align:left;font-weight:bold; margin-top:10px;margin-bottom:0px;"></h1>
+		  <h2 style="color:#ffffff; font-family: 'open sans'; font-size:14px; text-align:left;font-weight:bold; margin-top:10px;margin-bottom:5px;">  </h2>
+		  <br> 
+		 
+                              
+                            </div>
+						
+							
+							</div>
+	</div>
+<div class=" " style="">
+      
+      <nav class="navbar navbar-inverse" style="background-color:#464646; border:none; border-radius:0px; margin-bottom:0px; " id="nav_menu"> <!--background-color:#2f2f2f;  -->
+     <div class="container text-center">
+     <div class="col-xs-12 ">
+      <div class="navbar-header hideheader">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav_bar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+        <span class="icon-bar"></span>                        
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Menu</a>
+    </div>
+      <div class="collapse navbar-collapse" id="nav_bar">
+ 
+   
+    <ul class="nav navbar-nav MarginZero" style=""> <!--  margin-left:70px; -->
+     
+      <li class="active"><a href="#Introduction">HOME </a></li>
+	 
+	  <li class="active"><a href="#promoIntro">ABOUT US </a></li>
+	  <li class="active"><a href="#Services">SERVICES </a></li>
+	  <li class="active"><a href="#footer">CONTACT US </a></li>
+      
+      
+    </ul>
+  </div> </div> 
+   </div>
+</nav>
+</div>
+  </section>
+  
+  
+  <section class="container-fluid" >
+    <div class="row">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-md-12" style="">
+            <div class="row">
+	
+              <div class="col-xs-12 promo_holder" style="padding-top:10px;" > 
+     
+				<h1 style="color:#c61324" id="promoIntro">ABSE Realty<h1/>
+				<h2>Let our clients lead their wishes in the path of property search journey and worry-free.</h2>
+                 <p>Managing over 2000 premium properties, this department is one of the largest and most successful in the area. <strong>ABSE Realty represents more than 10,000 units in 5 cities of our states</strong>, including Chennai, Kanchipuram, Tiruvallur, Coimbatore, Trichy, and Madurai. Property Services has grown exponentially in units managed through our constant focus on the future and our clients’ ever-evolving needs.
+</p>
+				 <p><strong>Our specialties inside of the property search,,</strong> we support our clients with end to end customer support from Home Search till Grahapravesam. Whether you are looking to stay or need assistance in managing your investment, contact our ABSE team and put them to work for you today.  </p>
+				 <p><strong>ABSE’s Team </strong>provides an all-encompassing menu of professional property services, customized to meet your home buying requirements and increase your ROI. Eventually, we provide expertise service to complete your home loan, interiors, home automation and marketing services. </p>
+              </div>			
+            
+            </div>
+            
+          </div>
+         
+                </div>
+      
+    </div>
+  </section>
+  
+  
+<div class="col-xs-12 text-center " style=" padding-bottom:30px;position: relative;background: #e5e5e5; " id="SmallBusiness">
+				<p style="color:#c61324; font-size:32px; font-weight:bold; padding-top:30px; ">Why ABSE Realty</p>
+           
+              
+			</div>
+  
+  
+  
+  <section class="col-xs-12" style="background: #e5e5e5;">
+    <div class="row g-border"><div class="container"><img class="img-responsive" style=" " src=" https://i.ibb.co/SnFswMc/ABSE-You-re-FINALLY-REACHED.png" alt="Why ABSE Realty"></div>
+	<!-- <a style="text-align:center;margin:0 auto;display:block;margin-top:20px;" href="" target="_blank" class="btn-hpi">Learn More</a>  -->
+	</div>
+		
+  </section>
+ 
+ 
+ 
+ 
+
+  <!-- Resources Section Starts -->
+     <section class="col-xs-12" style="" id="Services">
+	
+		 <div class="row">  
+		  
+		<div class="col-xs-12 text-center " style=" padding-bottom:30px;position: relative; " id="ResourceSec">
+				<p style="color:#c61324; font-size:32px; font-weight:bold; padding-top:20px; ">Services</p>
+           
+              
+			</div>
+					<div class="removepadding2" style="padding-left:50px;padding-right:50px; padding-bottom:50px;">
+						
+         
+            	
+
+ <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+
+		<div class="flex-item paddingBottomAdjust">
+			<div class="media "> <img alt="Resource 1" src="https://i.ibb.co/DpWkgN9/1.png" alt="" class="img-responsive"> </div>
+			<div><div class="caption auto-h">
+				<hr width="60" style="width:60px; display: block; height: 1px; border: 0;   border-top: 2px solid #333; margin: 1em 0;padding: 0; ">
+					<h4 class="font-w-600">DISCOVER A PLACE YOU’LL LOVE TO LIVE</h4>
+					<p class="">Builded our strategy beyond the initial search to make the home search better, faster, easier and worry-free. We gave customers more value, not just by providing suitable options, but by investing in the right home that they wants</p>
+					
+			</div>
+		 
+			<!-- <a data-toggle="modal" data-target="#watchvideo4"  class="btn-hpi" style="cursor:pointer;">Watch Video</a> -->
+			</div>
+		</div>
+		
+</div>
+      <div class="col-xs-12 seperator">&nbsp;</div>                      
+<div class="visible-xs-block" style="height:20px">&nbsp;</div>
+ <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 ">
+	
+		<div class="flex-item paddingBottomAdjust">
+			<div class="media mobilePaddingAdjust"> <img alt="Reseource 2" src="https://i.ibb.co/W6ZgF47/2.png" alt="" class="img-responsive"> </div>
+		<div>	<div class="caption auto-h">
+				<hr width="60" style="width:60px; display: block; height: 1px; border: 0;   border-top: 2px solid #333; margin: 1em 0;padding: 0; ">
+				<h4 class="font-w-600">CUSTOMIZE YOUR HOME FINANCE NEED</h4>
+					<p class="">Developed lending partners and channels so we can find the right loan for you. Our goal is to provide residential loans to our clients while providing them with the lowest possible interest rates.
+ </p>
+					
+			</div>
+			 
+			<!-- <a data-toggle="modal" data-target="#watchvideo1"  class="btn-hpi" style="cursor:pointer;">Watch Video</a> -->
+			</div>
+		</div>
+	
+</div>
+<div class="col-xs-12 seperator">&nbsp;</div>
+<div class="visible-xs-block" style="height:20px">&nbsp;</div>
+ <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" style=" ">
+	
+		<div class="flex-item paddingBottomAdjust">
+			<div class="media mobilePaddingAdjust"> <img alt="Resource 3" src="https://i.ibb.co/mcG5w4G/3.png" alt="" class="img-responsive"> </div>
+			<div><div class="caption auto-h">
+				<hr width="60" style="width:60px; display: block; height: 1px; border: 0;   border-top: 2px solid #333; margin: 1em 0;padding: 0; ">
+				<h4 class="font-w-600">PLAN RETURN ON INVESTMENTS 
+</h4>
+					
+				<p>Our rental service is specially designed for NRIs and for people who stay away from their property who need their property to be rented out. We ensure your convenience in finding a suitable tenant with no hassle.</p>	
+			</div>
+		<!-- <a href="" target="_blank" class="btn-hpi">Learn More</a> --></div>
+		</div>
+	
+</div>
+     
+						
+<div class="col-xs-12 seperator">&nbsp;</div>
+<div class="visible-xs-block" style="height:20px">&nbsp;</div>         
+            	
+
+ <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"style="align:center;" >
+
+		<div class="flex-item paddingBottomAdjust">
+			<div class="media mobilePaddingAdjust"> <img alt="Resource 4" src="https://i.ibb.co/7QTDkh0/4.png" alt="" class="img-responsive"> </div>
+			<div><div class="caption2 caption3 auto-h heightAdjust">
+				<hr width="60" style="width:60px; display: block; height: 1px; border: 0;   border-top: 2px solid #333; margin: 1em 0;padding: 0; ">
+					<h4 class="font-w-600">MAKE EVERY ROOM AS SPECIAL AS YOU WANT
+</h4>
+					<p class="">Professionals handle every project we take up for execution and undergo meticulous planning, space optimisation, aesthetic concept detailing, and unparalleled creations through skilled workmen</p>
+					
+			</div>
+			<!-- <a href="#" target="_blank" class="btn-hpi">Watch Video</a>  -->
+			 
+			</div>
+		</div>
+</div>
+  <div class="col-xs-12 seperator">&nbsp;</div>                          
+<div class="visible-xs-block" style="height:20px">&nbsp;</div>
+ <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ">
+	
+		<div class="flex-item paddingBottomAdjust">
+			<div class="media mobilePaddingAdjust"> <img alt="Resource 5" src="https://i.ibb.co/VtBQdm1/5.png" alt="" class="img-responsive"> </div>
+			<div><div class="caption2 auto-h">
+				<hr width="60" style="width:60px; display: block; height: 1px; border: 0;   border-top: 2px solid #333; margin: 1em 0;padding: 0; ">
+				<h4 class="font-w-600">CONTROL EVERYTHING AT YOUR FINGERTIPS</h4>
+					<p class="">Turn on your lights, play your favourite music or change your room temperature, at the tap of your smartphone. Simply talk to your virtual voice assistant, automatically turn everything off when you leave for work. </p>
+					
+			</div>
+			<!-- <a href="" target="_blank" class="btn-hpi">Learn More</a> -->
+			</div>
+		</div>
+	
+</div>
+
+ <div class="col-xs-12 seperator">&nbsp;</div>                          
+<div class="visible-xs-block" style="height:20px">&nbsp;</div>
+
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 ">
+	
+		<div class="flex-item paddingBottomAdjust">
+			<div class="media mobilePaddingAdjust"> <img alt="Resource 5" src="https://i.ibb.co/XVWJGCm/Resources-386-x-217-6-Tiles-2.png" alt="" class="img-responsive"> </div>
+			<div><div class="caption2 auto-h">
+				<hr width="60" style="width:60px; display: block; height: 1px; border: 0;   border-top: 2px solid #333; margin: 1em 0;padding: 0; ">
+				<h4 class="font-w-600">MARKETING LEADS POTENTIAL CUSTOMERS
+
+</h4>
+					<p class="">Place to encash potential buyers through various marketing activities in online and offline modes. Campaigns, expos, stall, showcase, print media, radio and television ads are pioneering the strategy over decades.</p>
+					
+			</div>
+			<!-- <a href="" target="_blank" class="btn-hpi">Learn More</a> -->
+			</div>
+		</div>
+	
+</div>
+      
+
+	   </div>
+	   
+	   
+      
+                 </div>
+                    </section>
+					<!-- Video Modal -->
+		
+					
+								
+	<!-- Video Modal -->
+  <!-- Resources Section Ends New -->
+<div class="col-xs-12 text-center " style="background: #e5e5e5; padding-bottom:30px;position: relative; " id="SDWANSecurity">
+				<p style="color:#c61324; font-size:32px; font-weight:bold; padding-top:20px; ">ABSE Shield</p>
+         
+			</div>
+   <section class="col-xs-12" style="background: #e5e5e5;padding-bottom:40px;">
+    <div class="row g-border"><div class="container"><img alt="SD-WAN Security" class="img-responsive" style=" " src=" https://i.ibb.co/M5YFGVC/ABSE-You-re-FINALLY-REACHED-2.png"></div>
+		<!-- <a style="text-align:center;margin:0 auto;display:block;margin-top:20px;" href="" target="_blank" class="btn-hpi">Learn More</a> --> 
+	</div>
+	
+  </section>
+   
+ 
+<div class="col-xs-12" id="footer" style="background-color:#464646;">
+		 
+		 
+			<!-- <div class="col-xs-12" style="background-color:#464646; padding:50px 0px 15px 0px; text-align:center;color:#ffffff;font-size:18px;"> Contact Us
+				
+			</div> -->
+			 
+
+				<div class="row" align="center" style=" padding-bottom:30px;">
+				<div class="container">
+				<div class="col-sm-12">
+				<p style="font-size:24px;color:#fff;padding:40px 20px 0 20px;margin:0;">Contact Us</p>
+					<div style="width:170px;border-bottom:2px solid #ffffff;text-align:center; display:inline-block; height:10px;margin:0 auto;display:block;" class="text-center centerAlign"> </div>
+				</div>
+						<div class="col-sm-12 smallContact" align="center" style="line-height:28px;padding-top: 10px; padding-bottom: 10px; font-size: 15px; color: #ffffff; font-weight: normal;">
+							<span style="font-size:18px;font-weight:bold;">ABSE Realty </span><br>An Unit of ABS Estates<br>   
+							<a style=" color:#c61324;font-weight: bold; text-decoration: none;padding-top:10px;" href="mailto:absestateschennai@gmail.com ?subject=Home Inquiry">absestateschennai@gmail.com
+								<strong>
+								</strong></a><br>+91 9551042299</div> 
+						
+				</div>
+
+			 
+	</div>	 
+	</div>
+  
+   
+    <div class="col-xs-12" style="padding:10px 0px 10px 0px;background-color: #efefef; margin-left: 0px; margin-right: 0px;">
+      <div class="container">
+        <div class="text-center Parafont3"><span target="_blank" style="text-transform: none; text-decoration: none; color: #000;">Copyright © 
+<span id="__copyright_year__"></span>
+<script type="text/javascript">
+document.getElementById("__copyright_year__").textContent = new Date().getFullYear();
+</script>
+
+          ABS Estates. All Rights Reserved</span>  </div>
+      </div>
+    </div>
+   
+  
+  <iframe id="BFSubmitter" name="BFSubmitter" style="display: none;"></iframe>
+  <iframe id="CollateralSubmitter" name="CollateralSubmitter" style="display: none;"></iframe>
+  <script>
+
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var results = new RegExp('[\\?&]' + name + '=([^&#]*)', 'i').exec(url);
+            if (!results) return null;
+            if (!results[1]) return '';
+            return decodeURIComponent(results[1].replace(/\+/g, " "));
+        }
+
+
+        
+
+        
+        
+            
+
+        });
+    
+        function FixNavbar() {
+            if ($(window).scrollTop() > 500 && $(window).width() > 767) {
+                $("#topBar").addClass("affixedNavbar");
+            } else {
+                $("#topBar").removeClass("affixedNavbar");
+            }
+        }
+
+        $(document).ready(function(e) {
+            window.onresize = FixNavbar;
+            window.onscroll = FixNavbar;
+			
+			    $('body').scrollspy({
+                target: ".navbar",
+                offset: 2 + window.innerHeight / 2
+            });
+
+        
+            $(".form-control").attr("onkeydown", "ClearValidationError(this.id);");
+            $(".form-control").attr("onchange", "ClearValidationError(this.id); ValidateField(this.id);");
+			
+			equalHeight($('.resource p'));
+			equalHeight($('.resource h3'));
+			
+			
+			var src = getParameterByName('source');
+			if(src === 'ContactForm')
+				$('#name').focus();
+
+        });
+
+
+        
+
+        function ValidateForm() {
+            fields = ["fname","lname","title","emailAddress","company"];
+
+            msg = "";
+
+            $(".FormCTA").prop("disabled", true);
+
+            for (i = 0; i < fields.length; i++) {
+                if (!ValidateField(fields[i])) {
+                    $("#" + fields[i]).focus();
+                    $(".FormCTA").prop("disabled", false);
+                    return false;
+                } else
+                    $("#" + fields[i]).removeClass("validationError");
+            }
+        }
+
+        function ClearValidationError(fldname) {
+            $("#" + fldname + "+.ValidationErrorMsg").html("");
+            $("#" + fldname).removeClass("validationError");
+        }
+
+
+
+        function ScrollTo(anc, e) {
+            toppos = $(anc).offset().top;
+            elheight = $(anc).outerHeight();
+
+            if (elheight <= window.innerHeight) {
+                toppos -= (window.innerHeight - elheight) / 2;
+            }
+
+            $("html,body").stop().animate({
+                scrollTop: toppos
+            }, 500);
+
+
+            if (e) {
+                e.stopPropagation();
+                e.preventDefault();
+                return false;
+            }
+        }
+
+
+        function myFunction() {
+            var x = document.getElementById("topBar");
+            if (x.className === "mid-nav") {
+                x.className += " responsive";
+            } else {
+                x.className = "mid-nav";
+            }
+        }
+		
+
+		
+        function equalHeight(group) {
+            var tallest = 0;
+            group.each(function() {
+                var thisHeight = $(this).height();
+                if (thisHeight > tallest) {
+                    tallest = thisHeight;
+                }
+
+            });
+            group.each(function() {
+                $(this).height(tallest);
+            });
+        }
+
+        if (window.innerWidth < 768) {
+            $("#topBar").removeClass("row").addClass("mid-nav");
+        }
+    </script> 
+	<script>
+	  		       //    Scrollto function
+        window.onscroll = function() {
+            if ($(window).scrollTop() > $(window).height() / 2) {
+                $(".GoToTop").css("opacity", 0).css("display", "block");
+                $(".GoToTop").stop().animate({
+                        opacity: 1,
+                    },
+                    250
+                );
+            } else {
+                $(".GoToTop").css("opacity", 1);
+                $(".GoToTop")
+                    .stop()
+                    .animate({
+                            opacity: 0,
+                        },
+                        250,
+                        function() {
+                            $(".GoToTop").css("display", "none");
+                        }
+                    );
+            }
+        };
+
+        function ScrollWindowTo(ancid, cb) {
+            scTop = $(ancid).offset().top;
+            $("html,body")
+                .stop()
+                .animate({
+                        scrollTop: scTop - 75,
+                    },
+                    1000
+                );
+        }
+	</script>
+		<script>
+$(document).ready(function(){
+ $('#watchvideo1').on("show.bs.modal", function(){
+		var linkSrc = $(this).attr("data-href");
+		$(this).find("iframe").attr('src', linkSrc);
+    });
+	$(this).on("hidden.bs.modal", function(){
+        $(this).find("iframe").attr('src',"");
+    });
+	 $('#watchvideo2').on("show.bs.modal", function(){
+		var linkSrc = $(this).attr("data-href");
+		$(this).find("iframe").attr('src', linkSrc);
+    });
+	$(this).on("hidden.bs.modal", function(){
+        $(this).find("iframe").attr('src',"");
+    });
+		 $('#watchvideo3').on("show.bs.modal", function(){
+		var linkSrc = $(this).attr("data-href");
+		$(this).find("iframe").attr('src', linkSrc);
+    });
+	$(this).on("hidden.bs.modal", function(){
+        $(this).find("iframe").attr('src',"");
+    });
+			 $('#watchvideo4').on("show.bs.modal", function(){
+		var linkSrc = $(this).attr("data-href");
+		$(this).find("iframe").attr('src', linkSrc);
+    });
+	$(this).on("hidden.bs.modal", function(){
+        $(this).find("iframe").attr('src',"");
+    });
+});
+  
+</script>
+ 
+</div>
+
+</body></html>
